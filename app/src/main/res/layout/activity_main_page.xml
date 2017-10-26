@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9C4"
+    android:orientation="vertical"
+    tools:context="com.example.android.justhelp.MainPage">
+
+<!--Title-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:gravity="center"
+        android:text="I'd Like To ..."
+        android:textSize="48sp" />
+
+<!--Request Button-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#FF5252"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:onClick="btnRequest"
+        android:text="Request"
+        android:textSize="25sp" />
+
+    <!--Donate Button-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#689F38"
+        android:layout_marginBottom="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:onClick="btnDonate"
+        android:text="Donate"
+        android:textSize="25sp" />
+
+
+
+</LinearLayout>
